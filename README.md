@@ -1,5 +1,5 @@
 # Innovators Club Website
-![Innovators Club Logo](./assets/logo.jpg)
+![Innovators Club Logo](./src/assets/logo.jpg)
 
 Welcome to the Innovators Club website! This website serves as the online presence for Innovators Club, aiming to bring together like-minded individuals passionate about innovation, technology, and personal development. Through this platform, members can engage, collaborate, and stay up-to-date with upcoming events, resources, and club activities.
 
