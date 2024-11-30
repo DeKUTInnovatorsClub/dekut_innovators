@@ -8,5 +8,130 @@
 /* Global Body Styles */
 body {
   width: 100vw;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #696858;
+  line-height: 24px;
+  font-size: 14px;
+}
+h1, h2, h3 {
+  color:#286181;
 }
 
+button {
+  color: #fff;
+  border: none;
+  background-color:#286181;
+  border-radius: 12px;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color:#286081f3;
+}
+.about-us-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-grid {
+  margin-top: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+.image-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit:fill;
+  border-radius: 10px;
+  transition: scale 0.5s ease-in-out;
+}
+.image-grid img:hover {
+  scale: 1.01;
+}
+.about-us-content {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.about-us-content button, .about-us-content p {
+  margin-top: 10px;
+}
+.innovations {
+  /* width: 90%; */
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.banner {
+  padding: 1.7rem;
+  margin: 2rem;
+  width: 100%;
+  color: #fff;
+  /* background: #286181; */
+  background-image: url('/src/assets/banner.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner h1 {
+  color: #E8E54F;
+}
+.banner p {
+  width: 40%;
+}
+.latest-innovations{
+  width: 90%;
+  text-align: center;
+
+}
+.latest-innovations-grid {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+.latest-innovations-grid img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: scale 0.5s ease-in-out;
+}
+.latest-innovations-grid img:hover {
+  scale: 1.01;
+}
+.upcoming-events {
+  margin: 2rem auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featured-events-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.featured-event {
+  padding: 10px;
+  border: 1px solid #286181;
+  border-radius: 8px;
+}
+.featured-event img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
