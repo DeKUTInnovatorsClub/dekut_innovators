@@ -1,4 +1,4 @@
-import AboutUs from "../components/AboutUS";
+import AboutUs from "../components/AboutUs";
 import Hero from "../components/Hero";
 import Innovations from "../components/Innovations";
 import Testimonials from "../components/Testimonials";
