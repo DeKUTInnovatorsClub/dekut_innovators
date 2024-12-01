@@ -1,0 +1,145 @@
+.hecont {
+  background-color: #286181;
+  width: 100%;
+}
+.hecont1 {
+  display: inline-flex;
+  width: 100%;
+}
+.hecont1 img {
+  position: absolute;
+  right: 0;
+  height: 400px;
+  object-fit: contain;
+}
+.hecont10 {
+  display: block;
+  width: 74%;
+  height: max-content;
+  padding-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+.hecont10 h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 60px;
+}
+.hecont10 h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:monospace;
+  line-height: 60px;
+}
+.btn1 {
+  border: 0px #ccc solid;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  color: #286181;
+  padding: 1% 4%;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  margin: 2%;
+}
+.btn2 {
+  border: 0px #ccc solid;
+  border-radius: 6px;
+  background-color: gold;
+  color: #286181;
+  padding: 1% 4%;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  margin: 2%;
+}
+.hecont100 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.hecont11 {
+  display: inline-flex;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  width: 100%;
+  padding: 2%;
+}
+
+
+.hecont111 {
+    display: block;
+    padding: 2% 10%;
+    width: 24.5%;
+    border-right:6px  #286181 solid;
+  
+  }
+  .hecont112 {
+    display: block;
+    padding: 2% 10%;
+    width: 24.5%;
+    border-right:6px  purple solid;
+  
+  }
+  .hecont113 {
+    display: block;
+    padding: 2% 10%;
+    width: 24.5%;
+    border-right:6px  orange solid;
+  
+  }
+  .hecont114 {
+    display: block;
+    padding: 2% 10%;
+    width: 24.5%;
+  
+  }
+.hecont111 h2 {
+  color: #286181;
+  width: 100%;
+  align-self: center;
+}
+.hecont111 h4 {
+  color: rgba(0, 0, 0, 0.664);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hecont112 h2 {
+    color: #286181;
+    width: 100%;
+    align-self: center;
+  }
+  .hecont112 h4 {
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hecont113 h2 {
+    color: #286181;
+    width: 100%;
+    align-self: center;
+  }
+  .hecont113 h4 {
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hecont114 h2 {
+    color: #286181;
+    width: 100%;
+    align-self: center;
+  }
+  .hecont114 h4 {
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
