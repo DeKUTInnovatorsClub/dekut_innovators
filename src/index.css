@@ -16,7 +16,11 @@ body {
   font-style: normal;
   color: #696858;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
+}
+h1  {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 h1, h2, h3 {
   color:#286181;
@@ -41,10 +45,13 @@ button:hover {
   justify-content: center;
 }
 .image-grid {
+  margin: auto;
   margin-top: 1.2rem;
-  width: 100%;
+  width: 90%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  gap: 10px;
 
 
 }
@@ -89,7 +96,7 @@ button:hover {
   color: #E8E54F;
 }
 .banner p {
-  width: 40%;
+  max-width: 300px;
 }
 .latest-innovations{
   width: 90%;
@@ -120,14 +127,17 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .featured-events-container {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .featured-event {
+  max-width: 200px;
   padding: 10px;
   border: 1px solid #286181;
   border-radius: 8px;
@@ -139,16 +149,16 @@ button:hover {
 }
 .testimonials-container{
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 .testimonial {
-  /* max-width: 200px ; */
+  max-width: 200px;
   background-color: #D9D9D9;
   font-size: 10px;
-  /* border: 1px solid #286181; */
   border-radius: 10px;
   padding: 10px;
 }
