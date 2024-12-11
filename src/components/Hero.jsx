@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/hero.css";
 import img1 from "../assets/img1.png";
+
 export default function Hero() {
   return (
     <div className="hecont">
@@ -12,8 +13,12 @@ export default function Hero() {
             to make a difference.
           </h2>
           <h5>We believe every idea has the potential to change the world.</h5>
-          <button className="btn1" onClick={() => {}}>Join us</button>
-          <button className="btn2" onClick={() => {}}>Contact us</button>
+          
+          <div className="button-container">
+            <button className="btn1" onClick={() => {}}>Join us</button>
+            <button className="btn2" onClick={() => {}}>Contact us</button>
+          </div>
+
           <div className="hecont100">
             <div className="hecont11">
               <div className="hecont111">
@@ -36,7 +41,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <img src={img1}></img>
+        <img src={img1} alt="Innovators Club" />
       </div>
     </div>
   );
