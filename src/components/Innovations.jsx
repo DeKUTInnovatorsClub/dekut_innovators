@@ -2,8 +2,10 @@
 import malaika from '../assets/images/malaika.png'
 import umeme from '../assets/images/umeme.png'
 import ngamwa from '../assets/images/ngamwa.png'
+import { useNavigate } from 'react-router-dom'
 // import ReactCardSlider from 'react-card-slider-component';
 export default function Innovations(){
+    const navigate = useNavigate()
     return (
         <section className="innovations">
                 <h1>Our Innovations</h1>
@@ -17,19 +19,19 @@ export default function Innovations(){
                     <div className="latest-innovations-grid">
                         <div className="innovation">
                             <img src={malaika} alt="latest innovation photo" />
-                            <button>Malaika Project</button>
+                            <button onClick={()=>navigate('projects')}>Malaika Project</button>
                         </div>
                         <div className="innovation">
                             <img src={umeme} alt="latest innovation photo" />
-                            <button>Umeme Sense</button>
+                            <button onClick={()=>navigate('projects')}>Umeme Sense</button>
                         </div>
                         <div className="innovation">
                             <img src={ngamwa} alt="latest innovation photo" />
-                            <button>Ngamwa Humanitarian Project</button>
+                            <button onClick={()=>navigate('projects')}>Ngamwa Humanitarian Project</button>
                         </div>
                         <div className="innovation">
                             <img src={malaika} alt="latest innovation photo" />
-                            <button>Malaika Project</button>
+                            <button onClick={()=>navigate('projects')}>Malaika Project</button>
                         </div>
                     </div>
                 </div>
