@@ -1,10 +1,7 @@
 
-import LatestInnovation1 from '../assets/images/latest-innovation1.png'
-import LatestInnovation2 from '../assets/images/latest-innovation2.png'
-import LatestInnovation3 from '../assets/images/latest-innovation3.png'
-import LatestInnovation4 from '../assets/images/latest-innovation4.png'
-import LatestInnovation5 from '../assets/images/latest-innovation5.png'
-import LatestInnovation6 from '../assets/images/latest-innovation6.png'
+import malaika from '../assets/images/malaika.png'
+import umeme from '../assets/images/umeme.png'
+import ngamwa from '../assets/images/ngamwa.png'
 // import ReactCardSlider from 'react-card-slider-component';
 export default function Innovations(){
     return (
@@ -18,12 +15,22 @@ export default function Innovations(){
                 <div className="latest-innovations">
                     <h2>Our Latest Innovations</h2>
                     <div className="latest-innovations-grid">
-                        <img src={LatestInnovation1} alt="latest innovation photo" />
-                        <img src={LatestInnovation2} alt="latest innovation photo" />
-                        <img src={LatestInnovation3} alt="latest innovation photo" />
-                        <img src={LatestInnovation4} alt="latest innovation photo" />
-                        <img src={LatestInnovation5} alt="latest innovation photo" />
-                        <img src={LatestInnovation6} alt="latest innovation photo" />
+                        <div className="innovation">
+                            <img src={malaika} alt="latest innovation photo" />
+                            <button>Malaika Project</button>
+                        </div>
+                        <div className="innovation">
+                            <img src={umeme} alt="latest innovation photo" />
+                            <button>Umeme Sense</button>
+                        </div>
+                        <div className="innovation">
+                            <img src={ngamwa} alt="latest innovation photo" />
+                            <button>Ngamwa Humanitarian Project</button>
+                        </div>
+                        <div className="innovation">
+                            <img src={malaika} alt="latest innovation photo" />
+                            <button>Malaika Project</button>
+                        </div>
                     </div>
                 </div>
         </section>

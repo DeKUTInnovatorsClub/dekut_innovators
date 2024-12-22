@@ -59,15 +59,25 @@
 .btn1 {
   background-color: whitesmoke;
   color: #286181;
+  transition: all 200ms ease-in-out;
+}
+.btn1:hover {
+  background-color: whitesmoke;
+  color: #286181;
 }
 
 .btn2 {
   background-color: gold;
   color: #286181;
+  transition: all 200ms ease-in-out;
+}
+.btn2:hover {
+  background-color: gold;
+  color: #286181;
 }
 
 .btn1:hover, .btn2:hover {
-  transform: scale(1.05);
+  scale: 1.05;
 }
 
 .hecont100 {

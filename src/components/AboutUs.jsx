@@ -1,31 +1,44 @@
-import AboutGrid1 from '../assets/images/about-grid1.png'
-import AboutGrid2 from '../assets/images/about-grid2.png'
-import AboutGrid3 from '../assets/images/about-grid3.png'
-import AboutGrid4 from '../assets/images/about-grid4.png'
+import { useNavigate } from 'react-router-dom'
+import partnershipImg from '../assets/images/partnership.png'
+import trainingImg from '../assets/images/training.png'
+import projectsImg from '../assets/images/projects.png'
+import eventsImg from '../assets/images/events.png'
+import map from '../assets/images/map.png'
 
 export default function AboutUs(){
+    const navigate = useNavigate()
     return (
         <section className="about-us-section">
             <h1>About Us</h1>
-            <p>Welcome to the Innovators Club!</p>
-            <div className="image-grid">
-                <img src={AboutGrid1} alt="A technology image" />
-                <img src={AboutGrid2} alt="A technology image" />
-                <img src={AboutGrid3} alt="A technology image" />
-                <img src={AboutGrid4} alt="A technology image" />
+            <div className='about-intro'>
+              <p>Welcome to DeKUT Innovators Club, where technology meets creativity. </p>
+              <p>Join us for hands-on training, exciting projects, and opportunities to showcase your skills. Be part of the future of innovation at DeKUT.</p>
             </div>
-            <div className="about-us-content">
-              <div>
-                <h3>Unleash Your Potential: Where Ideas Turn into Innovation!</h3>
-                <p>At the Innovators Club, we are a dynamic community of forward-thinkers, creators, and change-makers united by our passion for transforming ideas into reality. Our mission is to inspire and empower individuals from all backgrounds to push the boundaries of what's possible, solve complex challenges, and make a meaningful impact in the world....</p>
-                <button>Read More</button>
-              </div>  
-              <div>
-                <h3>Unleash Your Potential: Where Ideas Turn into Innovation!</h3>
-                <p>At the Innovators Club, we are a dynamic community of forward-thinkers, creators, and change-makers united by our passion for transforming ideas into reality. Our mission is to inspire and empower individuals from all backgrounds to push the boundaries of what's possible, solve complex challenges, and make a meaningful impact in the world....</p>
-                <button>Read More</button>
-              </div>  
+            <button onClick={()=> navigate('about')}>Learn More</button>
+            <h2>What we do</h2>
+            <div className="what-we-do">
+              <div className="activity">
+                <h3>Training Sessions</h3>
+                <img src={trainingImg} alt="" />
+                <button onClick={()=> navigate('about')}>Learn more</button>
+              </div>
+              <div className="activity">
+                <h3>Projects</h3>
+                <img src={projectsImg} alt="" />
+                <button onClick={()=> navigate('projects')}>Learn more</button>
+              </div>
+              <div className="activity">
+                <h3>Partnerships</h3>
+                <img src={partnershipImg} alt="" />
+                <button onClick={()=> navigate('about')}>Learn more</button>
+              </div>
+              <div className="activity">
+                <h3>Events/Competitions</h3>
+                <img src={eventsImg} alt="" />
+                <button onClick={()=> navigate('events')}>Learn more</button>
+              </div>
             </div>
+            
         </section>
     )
 }
