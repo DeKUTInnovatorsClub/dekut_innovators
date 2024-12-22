@@ -1,10 +1,10 @@
 
-import LatestInnovation1 from '../assets/latest-innovation1.png'
-import LatestInnovation2 from '../assets/latest-innovation2.png'
-import LatestInnovation3 from '../assets/latest-innovation3.png'
-import LatestInnovation4 from '../assets/latest-innovation4.png'
-import LatestInnovation5 from '../assets/latest-innovation5.png'
-import LatestInnovation6 from '../assets/latest-innovation6.png'
+import LatestInnovation1 from '../assets/images/latest-innovation1.png'
+import LatestInnovation2 from '../assets/images/latest-innovation2.png'
+import LatestInnovation3 from '../assets/images/latest-innovation3.png'
+import LatestInnovation4 from '../assets/images/latest-innovation4.png'
+import LatestInnovation5 from '../assets/images/latest-innovation5.png'
+import LatestInnovation6 from '../assets/images/latest-innovation6.png'
 // import ReactCardSlider from 'react-card-slider-component';
 export default function Innovations(){
     return (

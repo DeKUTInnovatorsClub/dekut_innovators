@@ -204,3 +204,66 @@ button:hover {
   border: 1px solid #1C8BC9;
 
 }
+.contact-us{
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0000009d;
+
+}
+.contact-us > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us input, textarea {
+  padding: 5px 10px;
+  border: 1px solid #286181;
+  border-radius: 4px;
+  margin-left: 10px;
+  outline:#78adcc;
+}
+.contact-us  .form-elements {
+  display: flex;
+  padding: 20px;
+}
+.labels, .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.labels {
+  flex: 1;
+  gap: 25px;
+}
+.inputs {
+  flex: 2;
+}
+form > button {
+  width: 120px;
+  border-radius: 8px;
+}
+.map {
+  width: 100%;
+  height: 150px;
+  background-image: url('/src/assets/images/map.png');
+  background-position: center;
+  background-size: contain;
+  display: flex;
+}
+.map > div {
+  align-self: flex-end;
+  margin: 5px;
+  color: #000;
+  padding: 10px;
+  background-color: #fff;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

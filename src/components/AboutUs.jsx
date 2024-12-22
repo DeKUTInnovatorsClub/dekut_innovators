@@ -1,7 +1,7 @@
-import AboutGrid1 from '../assets/about-grid1.png'
-import AboutGrid2 from '../assets/about-grid2.png'
-import AboutGrid3 from '../assets/about-grid3.png'
-import AboutGrid4 from '../assets/about-grid4.png'
+import AboutGrid1 from '../assets/images/about-grid1.png'
+import AboutGrid2 from '../assets/images/about-grid2.png'
+import AboutGrid3 from '../assets/images/about-grid3.png'
+import AboutGrid4 from '../assets/images/about-grid4.png'
 
 export default function AboutUs(){
     return (

@@ -1,5 +1,5 @@
 
-import EventPhoto from "../assets/latest-innovation5.png"
+import EventPhoto from "../assets/images/latest-innovation5.png"
 export default function FeaturedEvent(){
     return (
         <div className="featured-event">
