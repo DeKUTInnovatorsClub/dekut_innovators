@@ -8,27 +8,27 @@ import ReactCardSlider from 'react-card-slider-component';
 
 const testimonials = [
     {
-      content: "You made it so simple. My new site is so much faster and easier to work with than my old site.",
+      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
       name: "Leslie Alexander",
-      designation: "Freelance React Developer",
+      designation: "Embedded Software Engineer",
       avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
     },
     {
-      content: "You made it so simple. My new site is so much faster and easier to work with than my old site.",
+      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
       name: "Leslie Alexander",
-      designation: "Freelance React Developer",
+      designation: "Embedded Software Engineer",
       avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
     },
     {
-      content: "You made it so simple. My new site is so much faster and easier to work with than my old site.",
+      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
       name: "Leslie Alexander",
-      designation: "Freelance React Developer",
+      designation: "Embedded Software Engineer",
       avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
     },
     {
-      content: "You made it so simple. My new site is so much faster and easier to work with than my old site.",
+      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
       name: "Leslie Alexander",
-      designation: "Freelance React Developer",
+      designation: "Embedded Software Engineer",
       avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
     },
   ];
@@ -45,7 +45,10 @@ export default function Home(){
             <WhyJoinUs />
             {/* <ReactCardSlider slides={testimonialsElements}/> */}
             <div className="testimonials-container">
-            {testimonialsElements}
+            <h1>Testimonials</h1>
+            <div className="testimonials">
+              {testimonialsElements}
+            </div>
 
             </div>
         </div>

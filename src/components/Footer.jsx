@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/footer.css";
-import logo from "../assets/logo.jpg";
 import { FaTwitter, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
@@ -8,7 +7,7 @@ export default function Footer() {
     <div className="fcont">
       <div className="fcont1">
         <div className="fcont11">
-          <h2>Innovators Club</h2>
+          <h2>DeKUT Innovators Club</h2>
           <h3>Dedan Kimathi University of Technology</h3>
           <button onClick={() => {}}>Join us</button>
         </div>

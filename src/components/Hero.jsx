@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hecont1">
         <div className="hecont10">
           <h2>
-            The Innovators Club is committed to empowering students to think
+            DeKUT Innovators Club is committed to empowering students to think
             creatively, solve real-world problems, and collaborate with others
             to make a difference.
           </h2>
@@ -26,11 +26,11 @@ export default function Hero() {
                 <h4>Members</h4>
               </div>
               <div className="hecont112">
-                <h2>200k+</h2>
+                <h2>200+</h2>
                 <h4>Projects</h4>
               </div>
               <div className="hecont113">
-                <h2>30k+</h2>
+                <h2>30+</h2>
                 <h4>Community</h4>
               </div>
               <div className="hecont114">

@@ -26,7 +26,8 @@ body {
 }
 h1  {
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 2rem;
+  margin-bottom: 8px;
 }
 h1, h2, h3 {
   color:#286181;
@@ -45,10 +46,14 @@ button:hover {
 .about-us-section {
   width: 90%;
   margin: auto;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.about-us-section > p {
+  color: #000;
 }
 .image-grid {
   margin: auto;
@@ -74,6 +79,7 @@ button:hover {
 .about-us-content {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .about-us-content button, .about-us-content p {
@@ -87,6 +93,11 @@ button:hover {
   justify-content: center;
   align-items: center;
 
+
+}
+
+.innovations > p {
+  color: #000;
 }
 .banner {
   padding: 1.7rem;
@@ -107,7 +118,9 @@ button:hover {
 .latest-innovations{
   width: 90%;
   text-align: center;
-
+}
+.latest-innovations > h2{
+  font-size: 1.5rem;
 }
 .latest-innovations-grid {
   margin: 2rem auto;
@@ -135,10 +148,14 @@ button:hover {
   align-items: center;
   flex-wrap: wrap;
 }
+.upcoming-events > p {
+  color: #000;
+}
 .featured-events-container {
   margin-top: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -153,9 +170,16 @@ button:hover {
   height: 50px;
   border-radius: 50%;
 }
-.testimonials-container{
+.testimonials-container {
+  display: flex;
   width: 90%;
   margin: 20px auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.testimonials{
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

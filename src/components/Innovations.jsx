@@ -16,7 +16,7 @@ export default function Innovations(){
                     <p>Ideas are only as powerful as their execution. At the Innovators Club, we help turn abstract concepts into real-world solutions. With hands-on workshops, prototype development, and expert guidance, we ensure that the innovations we create have a lasting impact</p>
                 </div>
                 <div className="latest-innovations">
-                    <h1>Our Latest Innovations</h1>
+                    <h2>Our Latest Innovations</h2>
                     <div className="latest-innovations-grid">
                         <img src={LatestInnovation1} alt="latest innovation photo" />
                         <img src={LatestInnovation2} alt="latest innovation photo" />
