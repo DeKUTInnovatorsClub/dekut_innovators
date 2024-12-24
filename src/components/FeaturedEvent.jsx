@@ -8,7 +8,7 @@ export default function FeaturedEvent(){
                 <h2 style={{fontSize:"1.5rem"}}>Hike to Nyeri Hill</h2>
                 <p>Date: 10th September 2024</p>
                 <p>Description: Two day Event, A Camp and Hike to Nyeri Hill Two day Event, A Camp and Hike to Nyeri Hill Two day Event, A Camp and Hike to Nyeri Hill </p>
-                <p>Registration Link: <a href="#" style={{color: "blue", textDecoration:"underline"}}>https://register/hike-to-nyeri-hill</a></p>
+                <p>Registration Link: <a href="#" style={{color: "#f5f5f5", textDecoration:"underline"}}>https://register/hike-to-nyeri-hill</a></p>
             </div>    
         </div>
     )

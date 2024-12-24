@@ -187,7 +187,8 @@ button:hover {
   /* gap: 10px; */
   flex-wrap: wrap;
 }
-.featured-event, .event {
+.featured-event, .event, .project {
+  /* color: #fff; */
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -200,9 +201,9 @@ button:hover {
   max-height: 200px; 
   /* border-radius: 50%; */
 }
-.about-event {
+.about-event, .project-details {
   padding: 10px;
-  background-color: rgb(245,245, 255);
+  background-color:whitesmoke;
 }
 .why-join-us {
   width: 80%;
@@ -227,7 +228,7 @@ button:hover {
   padding: 10px;
   font-size: 10px;
   max-width: 200px;
-  background-color: rgb(245,245,255);
+  background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
@@ -253,7 +254,7 @@ button:hover {
 .become-member {
   padding: 30px;
   margin: auto;
-  background-color: rgb(245, 245, 255);
+  background-color: whitesmoke;
 }
 .become-member-container  a {  
   padding: 10px;
@@ -342,9 +343,8 @@ hr {
   margin-top: -20px;
 }
 .events > h2 {
-  color: #fff;
   width: fit-content;
   border-top: 1px solid #286181;
-  background-color: #286081;
+  background-color: whitesmoke;
   padding: 5px;
 }
