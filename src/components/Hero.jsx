@@ -1,8 +1,9 @@
-import React from "react";
+import { useNavigate } from 'react-router-dom'
 import "../styles/hero.css";
 import img1 from "../assets/images/img1.png";
 
 export default function Hero() {
+  const navigate = useNavigate()
   return (
     <div className="hecont">
       <div className="hecont1">
@@ -15,8 +16,8 @@ export default function Hero() {
           <h5>We believe every idea has the potential to change the world.</h5>
           
           <div className="button-container">
-            <button className="btn1" onClick={() => {}}>Join us</button>
-            <button className="btn2" onClick={() => {}}>Contact us</button>
+            <a href='#become-a-member' className="btn1" >Join us</a>
+            <button className="btn2" onClick={() => navigate('contact-us')}>Contact us</button>
           </div>
 
           <div className="hecont100">

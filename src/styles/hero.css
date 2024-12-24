@@ -5,9 +5,10 @@
 }
 
 .hecont1 {
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   align-items: center;
   position: relative;
 }

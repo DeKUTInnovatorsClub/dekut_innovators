@@ -47,7 +47,7 @@ const items = [
 
 const WhyJoinUs = () => {
   return (
-    <div className="bg-white py-12 px-6">
+    <div className="bg-white py-12 px-6 why-join-us">
       <h1 className="font-bold text-center  mb-8">Why Join Us?</h1>
       <h2 className=" font-bold text-center text-black mb-8">Discover, Learn, Innovate</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -5,6 +5,7 @@ import Testimonials from "../components/Testimonials";
 import UpcomingEvents from "../components/UpcomingEvents";
 import WhyJoinUs from "../components/WhyJoinUs";
 import ReactCardSlider from 'react-card-slider-component';
+import BecomeMember from "../components/BecomeMember";
 
 const testimonials = [
     {
@@ -43,12 +44,12 @@ export default function Home(){
             <Innovations />
             <UpcomingEvents />
             <WhyJoinUs />
-            {/* <ReactCardSlider slides={testimonialsElements}/> */}
             <div className="testimonials-container">
             <h1>Testimonials</h1>
             <div className="testimonials">
               {testimonialsElements}
             </div>
+            <BecomeMember />
 
             </div>
         </div>

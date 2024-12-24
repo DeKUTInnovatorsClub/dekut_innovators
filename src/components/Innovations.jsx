@@ -11,8 +11,10 @@ export default function Innovations(){
                 <h1>Our Innovations</h1>
                 <p>Where Bold Ideas Meet Real-World Impact</p>
                 <div className='banner'>
+                    <div>
                     <h1>Inspire. Create. Innovate.</h1>
                     <p>Ideas are only as powerful as their execution. At the Innovators Club, we help turn abstract concepts into real-world solutions. With hands-on workshops, prototype development, and expert guidance, we ensure that the innovations we create have a lasting impact</p>
+                    </div>
                 </div>
                 <div className="latest-innovations">
                     <h2>Our Latest Innovations</h2>

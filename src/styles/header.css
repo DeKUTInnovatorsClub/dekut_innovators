@@ -13,6 +13,16 @@
   justify-content: space-between;
   position: relative;
 }
+.hcont1 > a {
+  width: 100px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #286181;
+  border-radius: 5px;
+}
+.hcont1 > a:hover {
+  background-color: #286081e8;
+}
 
 .hcont1 img {
   /* height: 50px; */
@@ -114,8 +124,7 @@
     font-size: 16px;
   }
 
-  .hcont1 button {
-    font-size: 16px;
-    padding: 8px 15px;
+  .hcont1 > a {
+    display: none;
   }
 }

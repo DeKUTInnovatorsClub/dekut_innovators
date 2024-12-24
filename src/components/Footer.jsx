@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="fcont11">
           <h2>DeKUT Innovators Club</h2>
           <h3>Dedan Kimathi University of Technology</h3>
-          <button onClick={() => {}}>Join us</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjPTJdWIZxH-Z1xffmUZpAnmU9-DUestbpB1bd_GA0xPLM0w/viewform?usp=header" target="_blank">Join us</a>
         </div>
         <div className="fcont12">
           <div className="fcont13">
