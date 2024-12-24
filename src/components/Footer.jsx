@@ -1,6 +1,6 @@
-import React from "react";
+import {Link } from "react-router-dom";
 import "../styles/footer.css";
-import { FaTwitter, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -14,12 +14,12 @@ export default function Footer() {
         <div className="fcont12">
           <div className="fcont13">
             <div className="fcont14">
-              <h4>Home</h4>
-              <h4>About us</h4>
-              <h4>Projects</h4>
-              <h4>Events</h4>
-              <h4>Blog</h4>
-              <h4>Contact us</h4>
+              <Link to='/'>Home</Link>
+              <Link to='about'>About us</Link>
+              <Link to='projects'>Projects</Link>
+              <Link to='events'>Events</Link>
+              {/* <Link to='blog'>Blog</Link> */}
+              <Link to='contact-us'>Contact us</Link>
             </div>
             <div className="fcont14">
               <h4>Services</h4>
@@ -43,13 +43,16 @@ export default function Footer() {
             <h3>Follow us</h3>
             <div className="fcont16">
               <a href="#" aria-label="Facebook">
-                <FaFacebook style={{color:'blue', fontSize:'40px'}}/>
+                <FaFacebook style={{color:'white', fontSize:'40px'}}/>
               </a>
               <a href="#" aria-label="WhatsApp">
-                <FaWhatsapp style={{color:'orange', fontSize:'40px'}}/>
+                <FaWhatsapp style={{color:'white', fontSize:'40px'}}/>
               </a>
               <a href="#" aria-label="Twitter">
-                <FaTwitter style={{color: 'purple', fontSize:'40px'}}/>
+                <FaTwitter style={{color: 'white', fontSize:'40px'}}/>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <FaLinkedin style={{color: 'white', fontSize:'40px'}}/>
               </a>
             </div>
           </div>

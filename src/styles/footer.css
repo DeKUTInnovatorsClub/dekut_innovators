@@ -61,7 +61,8 @@
   min-width: 150px;
 }
 
-.fcont14 h4 {
+.fcont14 h4, .fcont14 a {
+  display: block;
   color: whitesmoke;
   font-size: 18px;
   line-height: 2;

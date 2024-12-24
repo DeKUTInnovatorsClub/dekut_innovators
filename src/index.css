@@ -179,7 +179,7 @@ button:hover {
 .upcoming-events > p {
   color: #000;
 }
-.featured-events-container {
+.featured-events-container, .upcoming-events-container, .past-events {
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
@@ -187,14 +187,14 @@ button:hover {
   /* gap: 10px; */
   flex-wrap: wrap;
 }
-.featured-event {
+.featured-event, .event {
   max-width: 300px;
   display: flex;
   flex-direction: column;
   padding: 5px;
   flex-wrap: wrap;
 }
-.featured-event img{
+.featured-event img, .event img{
   width: 100%;
   max-width: 500px;
   max-height: 200px; 
@@ -329,4 +329,22 @@ form > button {
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
+}
+.events {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+hr {
+  border: 1px solid #286181;
+  margin-top: -20px;
+}
+.events > h2 {
+  color: #fff;
+  width: fit-content;
+  border-top: 1px solid #286181;
+  background-color: #286081;
+  padding: 5px;
 }
