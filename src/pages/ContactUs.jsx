@@ -22,7 +22,7 @@ export default function ContactUs(){
                         <textarea type="text" id='message' name="message" />
                     </div>
                 </div>
-                <button>Submit</button>
+                <button onClick={() => alert("Message sent.")}>Submit</button>
             </form>
         </div>
     
