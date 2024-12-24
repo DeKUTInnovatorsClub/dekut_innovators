@@ -8,7 +8,6 @@ export default function Testimonials(props){
         <div>
         <h6>{props.name}</h6>
         <h6>{props.designation}</h6>
-
         </div>
       </div>
     </div>

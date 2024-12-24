@@ -236,6 +236,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .testimonial >div > img {
   width: 40px;

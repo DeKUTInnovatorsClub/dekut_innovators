@@ -5,7 +5,7 @@ export default function BecomeMember(){
     return (
         <div className="become-member-container">
            <div id="become-a-member" className="become-member">
-                <h1>Become Member</h1>
+                <h1>Become A Member</h1>
                 <p>Unlock Potential with access to cutting edge tech,resources and community</p>
                 <p>Membership information:</p>
                 <p>One time registration fee of Ksh. 200</p>
