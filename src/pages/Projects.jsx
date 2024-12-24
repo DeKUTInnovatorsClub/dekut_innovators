@@ -2,17 +2,17 @@ import Project from "../components/Project"
 export default function Projects(){
     return (
         <div className="events">
-            <h2>Upcoming Events</h2>
+            <h2>Ongoing projects</h2>
             <hr />
-            <div className="upcoming-events-container">
+            <div className="ongoing-projects-container">
                 <Project />
                 <Project />
                 {/* <Event /> */}
 
             </div>
-            <h2>Past Events</h2>
+            <h2>Past projects</h2>
             <hr />
-            <div className="past-events">
+            <div className="past-projects">
                 <Project />
                 <Project />
                 <Project />

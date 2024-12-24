@@ -179,7 +179,7 @@ button:hover {
 .upcoming-events > p {
   color: #000;
 }
-.featured-events-container, .upcoming-events-container, .past-events {
+.featured-events-container, .upcoming-events-container, .past-events, .ongoing-projects-container, .past-projects {
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
