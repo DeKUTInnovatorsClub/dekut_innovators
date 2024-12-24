@@ -1,4 +1,10 @@
 export default function ContactUs(){
+
+    function handleSubmit(event){
+        event.preventDefault()
+        alert("Message sent.")
+
+    }
     return (
         <div className="contact-us">
             <div className='map'>
@@ -7,7 +13,7 @@ export default function ContactUs(){
                     <p>Resource Center - Physics Lab</p>
                 </div>
             </div>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div className="form-elements">
                     <div className='labels'>
                         <label htmlFor="fullname">Name</label>
@@ -22,7 +28,7 @@ export default function ContactUs(){
                         <textarea type="text" id='message' name="message" />
                     </div>
                 </div>
-                <button onClick={() => alert("Message sent.")}>Submit</button>
+                <button>Submit</button>
             </form>
         </div>
     
