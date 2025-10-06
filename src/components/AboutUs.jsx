@@ -3,7 +3,6 @@ import partnershipImg from '../assets/images/partnership.png'
 import trainingImg from '../assets/images/training.png'
 import projectsImg from '../assets/images/projects.png'
 import eventsImg from '../assets/images/events.png'
-import map from '../assets/images/map.png'
 
 export default function AboutUs(){
     const navigate = useNavigate()
@@ -19,22 +18,22 @@ export default function AboutUs(){
             <div className="what-we-do">
               <div className="activity">
                 <h3>Training Sessions</h3>
-                <img src={trainingImg} alt="" />
+                <img src={trainingImg} alt="Students participating in hands-on technical training sessions" />
                 <button onClick={()=> navigate('about')}>Learn more</button>
               </div>
               <div className="activity">
                 <h3>Projects</h3>
-                <img src={projectsImg} alt="" />
+                <img src={projectsImg} alt="Innovative technology projects developed by club members" />
                 <button onClick={()=> navigate('projects')}>Learn more</button>
               </div>
               <div className="activity">
                 <h3>Partnerships</h3>
-                <img src={partnershipImg} alt="" />
+                <img src={partnershipImg} alt="Collaborative partnerships with industry and academic institutions" />
                 <button onClick={()=> navigate('about')}>Learn more</button>
               </div>
               <div className="activity">
                 <h3>Events/Competitions</h3>
-                <img src={eventsImg} alt="" />
+                <img src={eventsImg} alt="Technology competitions and networking events organized by the club" />
                 <button onClick={()=> navigate('events')}>Learn more</button>
               </div>
             </div>
