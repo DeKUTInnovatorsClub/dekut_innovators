@@ -1,57 +1,39 @@
-import AboutUs from "../components/AboutUs";
+import React from "react";
 import Hero from "../components/Hero";
+import WhatWeDo from "../components/WhatWeDo";
+import AreasOfInnovation from "../components/AreasOfInnovation";
+import FeaturedInnovation from "../components/FeaturedInnovation";
 import Innovations from "../components/Innovations";
-import Testimonials from "../components/Testimonials";
 import UpcomingEvents from "../components/UpcomingEvents";
-import WhyJoinUs from "../components/WhyJoinUs";
-import ReactCardSlider from 'react-card-slider-component';
+import CommunityImpact from "../components/CommunityImpact";
 import BecomeMember from "../components/BecomeMember";
 
-const testimonials = [
-    {
-      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
-      name: "Leslie Alexander",
-      designation: "Embedded Software Engineer",
-      avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
-    },
-    {
-      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
-      name: "Leslie Alexander",
-      designation: "Embedded Software Engineer",
-      avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
-    },
-    {
-      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
-      name: "Leslie Alexander",
-      designation: "Embedded Software Engineer",
-      avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
-    },
-    {
-      content: "Joining the Innovators Club has transformed my tech skills in IoT and AI while exposing me to real-world applications through industrial trips and competitions. It’s been an incredible journey of learning, innovation, and growth!",
-      name: "Leslie Alexander",
-      designation: "Embedded Software Engineer",
-      avatar: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
-    },
-  ];
-  const testimonialsElements = testimonials.map((testimonial) => {
-    return (<Testimonials {...testimonial} />)
-  })
-export default function Home(){
-    return (
-        <div>
-            <Hero />
-            <AboutUs />
-            <Innovations />
-            <UpcomingEvents />
-            <WhyJoinUs />
-            <div className="testimonials-container">
-            <h1>Testimonials</h1>
-            <div className="testimonials">
-              {testimonialsElements}
-            </div>
-            <BecomeMember />
+export default function Home() {
+  return (
+    <div className="bg-white text-slate-800 min-h-screen">
+      {/* 1. Hero Section */}
+      <Hero />
 
-            </div>
-        </div>
-    )
+      {/* 2. What We Do Section */}
+      <WhatWeDo />
+
+      {/* 3. Areas of Innovation Section */}
+      <AreasOfInnovation />
+
+      {/* 4. Featured Innovation Spotlight (Umeme Sense) */}
+      <FeaturedInnovation />
+
+      {/* 5. Our Projects Grid with Category Filters */}
+      <Innovations />
+
+      {/* 6. Upcoming Events */}
+      <UpcomingEvents />
+
+      {/* 7. People Behind the Innovation & Our Impact */}
+      <CommunityImpact />
+
+      {/* 8. Become A Member CTA */}
+      <BecomeMember />
+    </div>
+  );
 }
